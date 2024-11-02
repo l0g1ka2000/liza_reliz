@@ -1,0 +1,73 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(90deg, rgb(243, 184, 166) 0%, rgb(176, 197, 186) 100%);
+    text-align: center;
+}
+
+nav{ 
+    width: 130px;
+    position: fixed;
+    height: 270px;
+    transition: 0.3s;
+    top: 40px;
+}
+nav a:hover{
+    left: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    width: 130px;
+}
+
+nav a{
+    position: absolute;
+    transition: 0.3s;
+    left: -120px;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(104, 3, 145);
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.about{
+    top: 20px;
+    background-color: bisque;
+}
+
+.blog{
+    top: 100px;
+    background-color: bisque;
+}
+
+.projects{
+    top: 180px;
+    background-color: bisque;
+}
+
+.contact{
+    top: 200px;
+    background-color: bisque;
+}
+h2{
+    font-size: 28px;
+    margin-top: 50px;
+}
+h3{
+    margin-top: 50px;
+    border-top: 2px solid black;
+    padding-top: 30px;
+}
+ .tov{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+ }
+.tov img{
+
+    margin-top: 50px;
+}
